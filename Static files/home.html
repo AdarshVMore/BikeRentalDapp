@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BikeChain</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <button class="connect-wallet">Connect Wallet</button>
+        </div>
+        <div class="container1">
+            <h1 class="heading">Rent a Bike whenever you want!</h1>
+            <div class="form">
+                <h3 class="name-form"></h3>
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" id="fname">
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lname">
+                <button class="submit-name" onclick="gotname()">Submit</button>
+            </div>
+            
+        </div>
+        <div class="container2">
+            <div class="value-container">
+                <h2 class="heading2" id="heading2"></h2>
+                <div class="values">
+                    <div class="credit">
+                        <p>Credit</p>
+                        <p class="credit-value"></p>
+                    </div>
+                    <div class="due">
+                        <p>due</p>
+                        <p class="due-value"></p>
+                    </div>
+                    <div class="Ride-min">
+                        <p>Ride Minutes</p>
+                        <p class="Ride-min-value"></p>
+                    </div>
+                    <div class="enter-values">
+                        <div class="enter-credit">
+                            <p>credit your account</p>
+                            <input type="number" id="credit-acc">
+                            <button class="credit-acc-btn" onclick="creditAcc()">Credit</button>
+                        </div>
+                        <div class="enter-due">
+                            <p>Pay your Due</p>
+                            <input type="number" id="due-acc">
+                            <button class="due-acc-btn" onclick="payDue()">Pay Due</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bike-view-container">
+                <div class="bike1">
+                    <img src="img/Screenshot from 2022-12-02 21-17-13.png" alt="" class="bike-img">
+                    <p class="bike-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ut adipisci nostrum excepturi illo temporibus reiciendis maxime ipsam atque, maiores cumque iure ab aspernatur iste voluptatibus omnis, consequatur perferendis harum.</p>
+                    <div class="in-out-btns">
+                        <button>CheckOut</button>
+                        <button>CheckIn</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../scripts/deploy.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/light/Desktop/blockchain-fcc/SimpleStorage/contracts/SimpleStorage.sol": {
+      "lastModificationDate": 1670387407373,
+      "contentHash": "83afef9ff886950f5dea7f588f5757a4",
+      "sourceName": "contracts/SimpleStorage.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.8"
+      ],
+      "artifacts": [
+        "SimpleStorage"
+      ]
+    },
+    "/home/light/Desktop/blockchain-fcc/BikeChain/contracts/BikeChain.sol": {
+      "lastModificationDate": 1670761269041,
+      "contentHash": "905740bb1403ea8320bbdb6172d4adbe",
+      "sourceName": "contracts/BikeChain.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BikeChain"
+      ]
+    }
+  }
+}
